@@ -1,7 +1,7 @@
 #!/bin/sh
 # `build ... -f` requires docker >= 1.5.x
 
-BUILD_VERSIONS=${BUILD_VERSIONS:-20 22}
+BUILD_VERSIONS=${BUILD_VERSIONS:-22 28}
 echo "==> Running builds for these version(s): $BUILD_VERSIONS"
 echo
 
